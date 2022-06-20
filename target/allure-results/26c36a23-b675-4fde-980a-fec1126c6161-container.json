@@ -1,0 +1,1 @@
+{"uuid":"26c36a23-b675-4fde-980a-fec1126c6161","name":"Registration test with only username","children":["57c6f359-141e-4589-9303-ea383e68961f"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655659181023,"stop":1655659181970}],"afters":[],"links":[],"start":1655659181021,"stop":1655659186647}

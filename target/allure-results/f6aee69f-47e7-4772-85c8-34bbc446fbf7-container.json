@@ -1,0 +1,1 @@
+{"uuid":"f6aee69f-47e7-4772-85c8-34bbc446fbf7","name":"Login with only username & password registered","children":["16b418bb-7aef-4dbc-b132-0dbe5c28a6fa"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655279899786,"stop":1655279902066}],"afters":[],"links":[],"start":1655279899739,"stop":1655279912407}

@@ -1,0 +1,1 @@
+{"uuid":"1d5b5d0a-b2a7-4ea3-9bc5-6d1c62e70990","name":"Test if the site is online","children":["db70ab41-f85e-4b57-a81f-86f41a1e6051"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1654966415030,"stop":1654966416350}],"afters":[],"links":[],"start":1654966414982,"stop":1654966417042}

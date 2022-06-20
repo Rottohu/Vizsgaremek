@@ -1,0 +1,1 @@
+{"uuid":"b974b423-7c0f-4949-ab8d-fcfa591b8306","name":"Registration test with only Username & Password filled","children":["433fe716-b7f4-48c6-8129-e043716e45ed"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655146599616,"stop":1655146601303}],"afters":[],"links":[],"start":1655146599571,"stop":1655146606302}

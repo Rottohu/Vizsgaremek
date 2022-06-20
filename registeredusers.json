@@ -1,0 +1,62 @@
+[
+  {
+    "username": "Jesse",
+    "password": "Phasellus",
+    "email": "non.sollicitudin@yahoo.edu",
+    "text": "auctor, velit eget laoreet posuere,"
+  },
+  {
+    "username": "Shaine",
+    "password": "ipsum",
+    "email": "pellentesque@hotmail.edu",
+    "text": "molestie dapibus ligula. Aliquam erat"
+  },
+  {
+    "username": "Cairo",
+    "password": "egestas.",
+    "email": "turpis.non.enim@google.edu",
+    "text": "nascetur ridiculus mus. Proin vel"
+  },
+  {
+    "username": "Pandora",
+    "password": "amet,",
+    "email": "pede.cras.vulputate@google.org",
+    "text": "id, ante. Nunc mauris sapien,"
+  },
+  {
+    "username": "Callum",
+    "password": "facilisis,",
+    "email": "tincidunt.orci@google.edu",
+    "text": "Cras dictum ultricies ligula. Nullam"
+  },
+  {
+    "username": "Hall",
+    "password": "aasdf",
+    "email": "quisque.fringilla@hotmail.ca",
+    "text": "odio, auctor vitae, aliquet nec,"
+  },
+  {
+    "username": "Hedley",
+    "password": "feugiat",
+    "email": "convallis.in.cursus@icloud.org",
+    "text": "ac nulla. In tincidunt congue"
+  },
+  {
+    "username": "Ann",
+    "password": "elit,",
+    "email": "montes.nascetur@hotmail.edu",
+    "text": "metus sit amet ante. Vivamus"
+  },
+  {
+    "username": "May",
+    "password": "dapibus",
+    "email": "aliquam.vulputate@hotmail.edu",
+    "text": "litora torquent per conubia nostra,"
+  },
+  {
+    "username": "Logan",
+    "password": "sit",
+    "email": "dignissim.pharetra.nam@icloud.ca",
+    "text": "velit. Cras lorem lorem, luctus"
+  }
+]

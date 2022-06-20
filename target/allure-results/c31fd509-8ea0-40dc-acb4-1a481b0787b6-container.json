@@ -1,0 +1,1 @@
+{"uuid":"c31fd509-8ea0-40dc-acb4-1a481b0787b6","name":"Login before register a user","children":["6aac0a2a-21b5-46b5-8b93-f6a79aaa7e36"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655659157412,"stop":1655659158750}],"afters":[],"links":[],"start":1655659157363,"stop":1655659163362}

@@ -1,0 +1,1 @@
+{"uuid":"190c26b4-60c4-4b87-b946-a2e63437d56f","name":"registerMultipleUser()","children":["5f315533-259e-4b13-b06b-255e4b26a6a0"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655416001167,"stop":1655416002514}],"afters":[],"links":[],"start":1655416001113,"stop":1655416002572}

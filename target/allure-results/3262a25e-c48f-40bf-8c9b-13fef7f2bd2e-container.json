@@ -1,0 +1,1 @@
+{"uuid":"3262a25e-c48f-40bf-8c9b-13fef7f2bd2e","name":"Registration test with only emailaddress","children":["be6409c1-cf84-439f-8d8c-b8c0ee50fcb9"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655659329308,"stop":1655659330221}],"afters":[],"links":[],"start":1655659329306,"stop":1655659334891}

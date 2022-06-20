@@ -1,0 +1,1 @@
+{"uuid":"e353d80e-1026-4eb7-b0b4-bc8eddd94edc","name":"Registration test with valid datas","children":["a49cd14f-5098-42e4-a63b-7a824a013bca"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655659348876,"stop":1655659349961}],"afters":[],"links":[],"start":1655659348874,"stop":1655659354694}

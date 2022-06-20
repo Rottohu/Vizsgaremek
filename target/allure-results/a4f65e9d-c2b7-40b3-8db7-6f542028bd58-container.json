@@ -1,0 +1,1 @@
+{"uuid":"a4f65e9d-c2b7-40b3-8db7-6f542028bd58","name":"Test if I reload the page, the window still exists","children":["8b687ec0-e22d-41dc-83eb-13b38fe4d4c4"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655143990157,"stop":1655143991478}],"afters":[],"links":[],"start":1655143990112,"stop":1655143994485}

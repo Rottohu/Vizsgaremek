@@ -1,0 +1,1 @@
+{"uuid":"3a5ecb25-b4e1-47f5-a614-5ac8d6c852bd","name":"Login with registrated user","children":["eb56abc6-1c01-4ab9-8e55-d4253ab56599"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655659167116,"stop":1655659167986}],"afters":[],"links":[],"start":1655659167114,"stop":1655659174754}

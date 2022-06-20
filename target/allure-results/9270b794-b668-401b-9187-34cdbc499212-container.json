@@ -1,0 +1,1 @@
+{"uuid":"9270b794-b668-401b-9187-34cdbc499212","name":"DeleteAllUserData()","children":["051b132d-b0fe-4538-a40a-d1c821b716bf"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655650254154,"stop":1655650255455}],"afters":[],"links":[],"start":1655650254103,"stop":1655650259414}

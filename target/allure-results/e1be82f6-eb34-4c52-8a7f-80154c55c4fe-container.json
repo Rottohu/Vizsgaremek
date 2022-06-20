@@ -1,0 +1,1 @@
+{"uuid":"e1be82f6-eb34-4c52-8a7f-80154c55c4fe","name":"Test if I can click on the X button on Terms pop","children":["0d4a993f-2796-494a-b613-72cadf1719f9"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1654966626738,"stop":1654966628045}],"afters":[],"links":[],"start":1654966626694,"stop":1654966631549}

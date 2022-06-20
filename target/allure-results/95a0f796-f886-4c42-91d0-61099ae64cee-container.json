@@ -1,0 +1,1 @@
+{"uuid":"95a0f796-f886-4c42-91d0-61099ae64cee","name":"Registration test without any data","children":["7c6f9ab0-c4c7-48bc-a726-cb5d9e5a5afa"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655462465500,"stop":1655462466506}],"afters":[],"links":[],"start":1655462465498,"stop":1655462471164}

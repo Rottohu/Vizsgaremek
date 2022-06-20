@@ -1,0 +1,1 @@
+{"uuid":"2005facc-bf62-4f85-aca7-97b9339e89fc","name":"registerMultipleUser()","children":["bfd15f2c-05e3-4b39-a354-33ef037d35b0"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1655416171775,"stop":1655416173046}],"afters":[],"links":[],"start":1655416171726,"stop":1655416173105}
