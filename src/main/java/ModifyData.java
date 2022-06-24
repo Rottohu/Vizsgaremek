@@ -38,15 +38,12 @@ public class ModifyData extends PageBase {
 
         if (s.contains(name)) {
             tempcounter++;
-            System.out.println("temp: "+tempcounter+" név igen");
         }
         if (s.contains(bio)) {
             tempcounter++;
-            System.out.println("temp: "+tempcounter+" bio igen");
         }
         if (s.contains(phone)){
             tempcounter++;
-            System.out.println("temp: "+tempcounter+" telefon igen");
         }
         if (tempcounter >= 3){
             return true;

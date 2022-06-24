@@ -22,7 +22,7 @@ public class WebpageTests {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-extensions");
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
         options.addArguments("--window-size=1920,1080");
         options.addArguments("start-maximized");
         //options.addArguments("user-agent=\"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)\"");
@@ -55,11 +55,11 @@ public class WebpageTests {
     @Test
     public void navigateToLandingPage() throws InterruptedException {
         Landing landing = (Landing) PageFactory.Create("Landing", driver);
-        landing.navigateToSpecifiedUrl("https://lennertamas.github.io/portio/landing");
+        landing.navigateToSpecifiedUrl("https://lennertamas.github.io/portio/landing.html");
         Thread.sleep(1500);
         String actual = driver.getCurrentUrl();
 
-        Assertions.assertNotEquals("https://lennertamas.github.io/portio/landing", actual);
+        Assertions.assertNotEquals("https://lennertamas.github.io/portio/landing.html", actual);
     }
 
 
@@ -100,7 +100,7 @@ public class WebpageTests {
 
         try {
             privacy.clickOnNowhere();
-        } catch (Exception e) {
+        } catch (Exception ignored) {
         }
 
         Thread.sleep(1000);
@@ -133,10 +133,10 @@ public class WebpageTests {
         register.popupKiller();
         Thread.sleep(1500);
         register.selectRegister();
-        register.sendUserName("Teszt");
-        register.sendPassword("Tesztpassword");
-        register.sendEmailAddress("teszt@teszt.com");
-        register.sendDescription("Árvíztűrő tükörfúrógép");
+        register.sendUserName("Test");
+        register.sendPassword("Testpassword");
+        register.sendEmailAddress("test@test.com");
+        register.sendDescription("Example description");
         register.pushTheRegButton();
 
         String actual = register.showRegMessage();
@@ -283,8 +283,8 @@ public class WebpageTests {
         Login login = (Login) PageFactory.Create("Login", driver);
         fullRegisterTest();
         login.clickLoginTab();
-        login.sendUsername("Teszt");
-        login.sendPassword("Tesztpassword");
+        login.sendUsername("Test");
+        login.sendPassword("Testpassword");
         login.pushLoginButton();
         Thread.sleep(1500);
 
@@ -299,8 +299,8 @@ public class WebpageTests {
         Login login = (Login) PageFactory.Create("Login", driver);
         login.navigateToUrl();
         login.popupKiller();
-        login.sendUsername("Teszt");
-        login.sendPassword("Tesztpassword");
+        login.sendUsername("Test");
+        login.sendPassword("Testpassword");
         login.pushLoginButton();
         Thread.sleep(1500);
 
@@ -321,7 +321,7 @@ public class WebpageTests {
         register.sendUserName("TestUser");
         register.pushTheRegButton();
         login.clickLoginTab();
-        login.sendUsername("Teszt");
+        login.sendUsername("TestUser");
         login.pushLoginButton();
         Thread.sleep(1500);
 
@@ -427,7 +427,6 @@ public class WebpageTests {
             }
         }
         Assertions.assertTrue(actual);
-
     }
 
     @Description("Simple Register, Login, Logut process")
@@ -491,15 +490,8 @@ public class WebpageTests {
 
     }
 
-
-}
-
-
-
-
-
-    /*@AfterEach
+    @AfterEach
     public void NukeIt() {
         driver.quit();
-    }*/
-
+    }
+}
