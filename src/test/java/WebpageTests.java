@@ -1,13 +1,17 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -484,7 +488,10 @@ public class WebpageTests {
         dataListing.fullLogin();
 
         String[] expected = {"Master in Arts","Master in Arts","Master in Arts","Master in Arts","Umbrella co.","Aperture Science","ACME Inc.","LexCorp"};
+
+        Allure.addAttachment("beforeScreenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         String[] actual = dataListing.allWorkToList();
+        Allure.addAttachment("afterScreenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 
         Assertions.assertArrayEquals(expected,actual);
 
